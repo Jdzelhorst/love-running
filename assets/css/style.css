@@ -241,6 +241,7 @@ footer {
 
 /* media queries */
 
+    /* full width screens */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -269,5 +270,18 @@ footer {
 
     hr {
         display: none;
+    }
+}
+
+/* medium screen sizes from 950px and down */
+
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
